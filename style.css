@@ -1,0 +1,12 @@
+/* تنسيق الصورة */
+.image-container {
+    text-align: center; /* محاذاة الصورة في الوسط */
+    margin: 20px; /* إضافة هامش حول الصورة */
+}
+
+.image-container img {
+    max-width: 100%; /* تجعل الصورة تتناسب مع عرض الحاوية */
+    height: auto; /* الحفاظ على نسبة العرض إلى الارتفاع */
+    border: 2px solid #ccc; /* إضافة إطار حول الصورة */
+    border-radius: 10px; /* جعل زوايا الصورة دائرية */
+}
